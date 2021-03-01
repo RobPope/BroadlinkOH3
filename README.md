@@ -19,6 +19,7 @@ This binding supports a range of home networking devices made by (and occasional
 | rm3        | Broadlink RM3/Mini WiFi IR Transmitter                                  |
 | rm3q       | Broadlink RM3 WiFi IR Transmitter with Firmware v44057                  |
 | rm4        | Broadlink RM4 WiFi IR Transmitter with temperature and humidity sensors |
+| bg1        | British General BG1 (800/900 Series) twin wall socket                   |
 
 ## Discovery
 
@@ -43,22 +44,22 @@ Devices in the above list that are set up and working in the Broadlink mobile ap
 
 ## Channels
 
-| Channel          | Supported Devices        | Type                 | Description                                     |
-|------------------|--------------------------|----------------------|-------------------------------------------------|
-| powerOn          | mp2, sp1, sp2, sp3, sp3s | Switch               | Power on/off for switches/strips                |
-| nightLight       | sp2, sp3, sp3s           | Switch               | Night light on/off                              |
-| temperature      | a1, rm2, rm4             | Number:Temperature   | Temperature                                     |
-| humidity         | a1, rm4                  | Number:Dimensionless | Air humidity percentage                         |
-| noise            | a1                       | String               | Noise level: `QUIET`/`NORMAL`/`NOISY`/`EXTREME` |
-| light            | a1                       | String               | Light level: `DARK`/`DIM`/`NORMAL`/`BRIGHT`     |
-| air              | a1                       | String               | Air quality: `PERFECT`/`GOOD`/`NORMAL`/`BAD`    |
-| s1powerOn        | mp1, mp1_1k3s2u          | Switch               | Socket 1 power                                  |
-| s2powerOn        | mp1, mp1_1k3s2u          | Switch               | Socket 2 power                                  |
-| s3powerOn        | mp1, mp1_1k3s2u          | Switch               | Socket 3 power                                  |
-| s4powerOn        | mp1                      | Switch               | Socket 4 power                                  |
-| usbPowerOn       | mp1_1k3s2u               | Switch               | USB power                                       |
-| powerConsumption | mp2, sp2,sp3s            | Number:Power         | Power consumption                               |
-| command          | rm, rm2, rm3, rm3q, rm4  | String               | IR Command code to transmit                     |
+| Channel          | Supported Devices             | Type                 | Description                                     |
+|------------------|-------------------------------|----------------------|-------------------------------------------------|
+| powerOn          | mp2, sp1, sp2, sp3, sp3s, bg1 | Switch               | Power on/off for switches/strips                |
+| nightLight       | sp2, sp3, sp3s                | Switch               | Night light on/off                              |
+| temperature      | a1, rm2, rm4                  | Number:Temperature   | Temperature                                     |
+| humidity         | a1, rm4                       | Number:Dimensionless | Air humidity percentage                         |
+| noise            | a1                            | String               | Noise level: `QUIET`/`NORMAL`/`NOISY`/`EXTREME` |
+| light            | a1                            | String               | Light level: `DARK`/`DIM`/`NORMAL`/`BRIGHT`     |
+| air              | a1                            | String               | Air quality: `PERFECT`/`GOOD`/`NORMAL`/`BAD`    |
+| s1powerOn        | mp1, mp1_1k3s2u, bg1          | Switch               | Socket 1 power                                  |
+| s2powerOn        | mp1, mp1_1k3s2u, bg1          | Switch               | Socket 2 power                                  |
+| s3powerOn        | mp1, mp1_1k3s2u               | Switch               | Socket 3 power                                  |
+| s4powerOn        | mp1                           | Switch               | Socket 4 power                                  |
+| usbPowerOn       | mp1_1k3s2u                    | Switch               | USB power                                       |
+| powerConsumption | mp2, sp2,sp3s                 | Number:Power         | Power consumption                               |
+| command          | rm, rm2, rm3, rm3q, rm4       | String               | IR Command code to transmit                     |
 
 ## Map File
 
