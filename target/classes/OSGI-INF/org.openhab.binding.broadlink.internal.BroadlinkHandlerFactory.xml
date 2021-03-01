@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="org.openhab.binding.broadlink.internal.BroadlinkHandlerFactory" immediate="true" configuration-pid="binding.broadlink">
+  <service>
+    <provide interface="org.openhab.core.thing.binding.ThingHandlerFactory"/>
+  </service>
+  <implementation class="org.openhab.binding.broadlink.internal.BroadlinkHandlerFactory"/>
+</scr:component>

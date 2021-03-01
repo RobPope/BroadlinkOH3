@@ -1,0 +1,7 @@
+org\openhab\binding\broadlink\handler\AbstractBroadlinkThingHandlerTest.class
+org\openhab\binding\broadlink\internal\BroadlinkProtocolTest.class
+org\openhab\binding\broadlink\handler\BroadlinkRemoteModel4HandlerTest.class
+org\openhab\binding\broadlink\internal\UtilsTest.class
+org\openhab\binding\broadlink\handler\BroadlinkRemoteModel2HandlerTest.class
+org\openhab\binding\broadlink\internal\ModelMapperTest.class
+org\openhab\binding\broadlink\internal\ThingLoggerTest.class

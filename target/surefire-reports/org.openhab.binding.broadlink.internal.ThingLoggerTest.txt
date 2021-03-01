@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openhab.binding.broadlink.internal.ThingLoggerTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s - in org.openhab.binding.broadlink.internal.ThingLoggerTest

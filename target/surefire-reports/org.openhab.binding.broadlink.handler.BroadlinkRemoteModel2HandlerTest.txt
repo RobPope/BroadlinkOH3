@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openhab.binding.broadlink.handler.BroadlinkRemoteModel2HandlerTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.066 s - in org.openhab.binding.broadlink.handler.BroadlinkRemoteModel2HandlerTest
